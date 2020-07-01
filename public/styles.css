@@ -8,6 +8,10 @@ html, body, #app, .container {
     max-height: 100vh;
     max-width: 100%;
     background: #e5e5e5;
+    background-image:url(./logo.jpg);
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-position:top right;
 }
 
 .chat-input input[type="text"] {
@@ -159,11 +163,13 @@ h1 {
 
 .username-container {
 	box-sizing: border-box;
-	width: 300px;
+	width: 500px;
+	height:500px;
 	margin: 100px auto 0;
 	box-shadow: 2px 2px 5px 1px rgba(0, 0, 0, 0.2);
 	padding-bottom: 20px;
 	border-radius: 3px;
+	border-radius: 30px 30px 30px 30px;
 }
 
 .username-container h1 {
@@ -173,16 +179,16 @@ h1 {
 
 .username-container input {
 	margin: 40px 25px;
-	width: 250px;
+	width: 440px;
 	display: block;
 	border: none;
 	padding: 10px 0;
 	border-bottom: solid 1px #1abc9c;
 	-webkit-transition: all 0.3s cubic-bezier(0.64, 0.09, 0.08, 1);
         	transition: all 0.3s cubic-bezier(0.64, 0.09, 0.08, 1);
-    background: -webkit-linear-gradient(rgba(255, 255, 255, 0) 96%, #1abc9c 4%);
-    background: -o-linear-gradient(rgba(255, 255, 255, 0) 96%, #1abc9c 4%);
-    background: linear-gradient(rgba(255, 255, 255, 0) 96%, #1abc9c 4%);
+        background: -webkit-linear-gradient(rgba(255, 255, 255, 0) 96%, #1abc9c 4%);
+     	background: -o-linear-gradient(rgba(255, 255, 255, 0) 96%, #1abc9c 4%);
+    	background: linear-gradient(rgba(255, 255, 255, 0) 96%, #1abc9c 4%);
 	background-position: -250px 0;
 	background-size: 250px 100%;
 	background-repeat: no-repeat;
@@ -203,7 +209,7 @@ h1 {
 	cursor: pointer;
 	border-radius: 4px;
 	padding: 10px;
-	width: 250px;
+	width: 440px;
 	color: white;
 	margin-left: 25px;
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
